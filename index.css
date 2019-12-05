@@ -1,0 +1,107 @@
+* {
+    font-family: "微軟正黑體";
+}
+
+body {
+    position: relative;
+}
+
+nav.pd {
+    padding: 0;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+nav li {
+    text-align: center;
+}
+
+#navspy {
+    background: rgb(255, 255, 255, 0.6);
+}
+
+#navspy a {
+    color: white;
+}
+
+#navspy button {
+    background: rgba(195, 209, 250, 0.6);
+}
+
+#navbarSupportedContent a {
+    text-shadow: 1px 1px rgb(117, 117, 117);
+}
+
+.jumbotron.ab-bg {
+    background: rgb(253, 242, 205);
+}
+
+.btm-50 {
+    margin: 50px;
+}
+
+.border,
+.photo {
+    border-radius: 50%;
+}
+
+.photo {
+    display: flex;
+    margin: auto;
+}
+
+.photo2 {
+    width: 50%;
+    height: 50%;
+}
+
+.lead p {
+    font-size: 26px;
+}
+
+.list-group a {
+    font-size: 26px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+hr {
+    background: 1px rgb(11, 190, 137);
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:768px) {
+    .lead h3 {
+        font-size: 26px;
+    }
+    .lead p {
+        font-size: 22px;
+    }
+    .img-75 {
+        width: 75%;
+        height: 75%;
+    }
+}
